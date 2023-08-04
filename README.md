@@ -30,19 +30,19 @@ In this repository, I've explored a wide range of technologies, including but no
 
 ## Code Snippets
 
-Here are some code snippets that I've found useful or interesting:
+Here are some code snippets:
 
-- [Snippet 1: How to create a responsive navigation bar](snippets/responsive-navbar.md)
-- [Snippet 2: CSS Flexbox quick reference](snippets/flexbox-reference.md)
-- [Snippet 3: JavaScript function for form validation](snippets/form-validation.md)
+- Snippet 1: Getting Started with Bootstrap 
+- Snippet 2: Bootstrap Grid
+- Snippet 3: alerts in bootstrap
 
 ## Projects
 
-I've also worked on several projects to apply my web development skills. Here are a few notable ones:
+I've also worked on several projects to apply my web development skills:
 
-- [Project 1: Personal Portfolio Website](projects/portfolio-website)
-- [Project 2: Task Management App using React](projects/task-management-app)
-- [Project 3: Blogging Platform with Node.js and MongoDB](projects/blog-platform)
+- Project 1:
+- Project 2: 
+- Project 3: 
 
 ## Contributing
 
