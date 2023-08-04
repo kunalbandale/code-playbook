@@ -56,4 +56,4 @@ This project is licensed under the [MIT License](LICENSE).
 
 Happy coding!
 
-Connect with me on [GitHub](https://github.com/yourusername) | [LinkedIn](https://linkedin.com/in/yourusername)
+Connect with me on [GitHub](https://github.com/kunalbandale) | [LinkedIn](https://linkedin.com/in/bandalekunal)
