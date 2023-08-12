@@ -43,6 +43,7 @@ I've also worked on several projects to apply my web development skills:
 - Project 1: Biographical web page
 - Project 2: IronMan
 - Project 3: Job-Application
+- Project 4: Parallax-Website
 
 ## Contributing
 
