@@ -44,6 +44,7 @@ I've also worked on several projects to apply my web development skills:
 - Project 2: IronMan
 - Project 3: Job-Application
 - Project 4: Parallax-Website
+- Project 5: Developer_Page
 
 ## Contributing
 
