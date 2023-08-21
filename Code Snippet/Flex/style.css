@@ -1,0 +1,55 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.flex-container {
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    /* Always is on the main axis */
+    /* justify-content:end; */
+    /* Always on the cross axis */
+    /* align-items:start;*/
+    /* flex-wrap: wrap; */
+
+
+}
+
+
+.items {
+    /* width: 100px; */
+    /* flex-basis: 100px; */
+    /* flex: 1 0 100px; */
+    flex: 1;
+    height: 100px;
+    background: #254de4;
+    color: #fff;
+    margin: 10px;
+
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+/* to select particular item */
+
+
+.items:nth-last-of-type(1) {
+    /* align-self: start; */
+
+}
+
+.items:nth-last-of-type(2) {
+    /* flex-grow: 2; */
+}
+
+.items:nth-last-of-type(3) {
+    /* flex-grow: 3; */
+}
