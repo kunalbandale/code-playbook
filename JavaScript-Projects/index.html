@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        text-align: center;
+      }
+      a {
+        text-decoration: none;
+        margin: 20px;
+      }
+
+      .flex-container {
+        display: flex;
+        justify-content: center;
+        gap: 50px;
+        background-color: #ffe5e5;
+        border-radius: 30px;
+        margin: 10px;
+        padding: 15px;
+      }
+
+      .btn {
+        border-radius: 80px;
+        width: 30px;
+        height: 30px;
+      }
+
+      #yellow {
+        background-color: yellow;
+      }
+      #green {
+        background-color: green;
+      }
+      #red {
+        background-color: red;
+      }
+      #black {
+        background-color: black;
+      }
+
+      footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: black;
+        color: white;
+        text-align: center;
+      }
+    </style>
+    <title>Color Switcher</title>
+  </head>
+  <body>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#github">Github</a>
+    </nav>
+    <h1>Color Scheme Switcher</h1>
+
+    <div class="flex-container">
+      <div class="btn" id="yellow"></div>
+      <div class="btn" id="green"></div>
+      <div class="btn" id="red"></div>
+      <div class="btn" id="black"></div>
+    </div>
+
+    <footer>
+      <p>Happy Coding🧑‍💻💡</p>
+    </footer>
+    <script src="index.js"></script>
+  </body>
+</html>
