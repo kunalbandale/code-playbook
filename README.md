@@ -47,7 +47,7 @@ I've also worked on several projects to apply my web development skills:
 - Project 4: Parallax-Website
 - Project 5: Developer_Page
 
-- - # JavaScript 
+- # JavaScript 
 - Project 1: Color Switcher
 - Project 2: BMI Calculator
 - Project 3: Digital Clock
