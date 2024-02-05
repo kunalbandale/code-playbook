@@ -1,0 +1,29 @@
+/* #cv-form {
+    display: none;
+} */
+
+
+/* cv template */
+#cv-template {
+    display: none;
+}
+
+.myImg {
+
+    border-radius: 50%;
+    width: 200px;
+}
+
+.background {
+    background-color: aqua;
+}
+
+h3 {
+    text-decoration:underline;
+    color:blueviolet;
+}
+
+h1 {
+    color: cornflowerblue;
+    font-weight: bolder;
+}
