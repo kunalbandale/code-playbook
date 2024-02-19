@@ -5,83 +5,33 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+        
+        <!-- styles -->
+        <link rel="stylesheet" href="styles/general.css">
+        <link rel="stylesheet" href="styles/header.css">
+        <link rel="stylesheet" href="styles/video.css">
+        
+        <!-- meta tags -->
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>youtube-clone</title>
         <style>
-         p {
-            font-family: Roboto, sans-serif;
-            margin-top: 0;
-            margin-bottom: 0;
-
-            }
-        .thumbnail{
-            width: 100%;
-            /* object-fit: contain;
-            object-position: top; */
-            /* display: block; */
-           
-        }
-        .search{
-            display: block;
-            
-        }
-
-        .video-grid {
-            display: grid;
-            grid-template-columns: 1fr 1fr 1fr;
-            column-gap: 16px;
-            row-gap:40px;
-        }
-        .vid-1 {
-            /* display: inline-block; */
-        }
-        .vid-title{
-          margin-top: 0;
-          font-size: 14px;
-          font-weight: 500;
-          line-height: 20px;
-          margin-bottom:15px;
-        }
-        .vid-author , .vid-stats{
-            font-size: 12px;
-            color: rgb(90, 96, 96);
-         
-        }
-        .vid-author {
-            margin-bottom: 4px;
-        }
-     
-        .video-info {
-            /* display:inline-block; */
-            width: 200px;
-           
-
-        }
-        .channel-pic {
-            /* display: inline-block; */
-            /* vertical-align: top; */
-            width: 50px;
-
-        }
-        
-        .vid-info-grid {
-            display: grid;
-            grid-template-columns:50px 1fr;
-        }
-        .pro-pic{
-            width:100%;
-            border-radius: 60px;
-         
-        }
-
-        .thumbnail-row {
-            margin-bottom: 10px;
-        }
+       
         </style>
     </head>
     <body>
-        <input class="search" type="text" placeholder="Search">
+        <!-- header -->
+        <div class="header">
+            <div class="left-section">
+                left-section
+            </div>
+            <div class="middle-section">
+                <input class="search" type="text" placeholder="Search">
+            </div>
+            <div class="right-section">
+                right-section
+            </div>
+        </div>
         <div class="video-grid">
             <!-- div-1 -->
             <div class="vid-1">
@@ -137,9 +87,8 @@
                     </div>
                 </div>
             </div>
-            
-             <!-- div-4 -->
-             <div class="vid-1">
+            <!-- div-4 -->
+            <div class="vid-1">
                 <div class="vid-preview">
                     <div class="thumbnail-row">
                         <img class="thumbnail" src="images/thumbnail-1.webp" alt="">
@@ -156,9 +105,8 @@
                     </div>
                 </div>
             </div>
-             
-             <!-- div-5 -->
-             <div class="vid-1">
+            <!-- div-5 -->
+            <div class="vid-1">
                 <div class="vid-preview">
                     <div class="thumbnail-row">
                         <img class="thumbnail" src="images/thumbnail-1.webp" alt="">
@@ -175,9 +123,8 @@
                     </div>
                 </div>
             </div>
-             
-             <!-- div-6-->
-             <div class="vid-1">
+            <!-- div-6-->
+            <div class="vid-1">
                 <div class="vid-preview">
                     <div class="thumbnail-row">
                         <img class="thumbnail" src="images/thumbnail-1.webp" alt="">
