@@ -58,4 +58,20 @@
 
 .thumbnail-row {
     margin-bottom: 10px;
+    position: relative;
+    border-radius: 5px;
+
+}
+
+.video-time {
+    font-family: Roboto, sans-serif;
+    background-color: black;
+    font-weight: 400;
+    font-size: 12px;
+    padding:2px 2px 4px 4px ;
+    color: white;
+    position: absolute;
+    border-radius: 2px;
+    bottom: 8px;
+    right: 5px;
 }

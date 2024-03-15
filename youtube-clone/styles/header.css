@@ -16,6 +16,7 @@
     border-bottom-width: 1px;
     border-bottom-style: solid;
     border-bottom-color: rgb(228, 228, 228);
+    z-index: 100;
     
  }
 
@@ -120,9 +121,30 @@
 .notifications-icon {
     height: 24px;
 
+
 }
+.noti-container {
+    position: relative;
+
+}
+
+.noti-count {
+    position: absolute;
+    top: -5px;
+    right: 0px;
+    background-color: rgb(195, 5, 5);
+    color: white;
+    font-family: Roboto;
+    font-size: 11px;
+    /* t r b l */
+    padding: 2px 5px 2px 5px;
+    border-radius: 50px;
+
+}
+
 
 .my-icon{
     height: 32px;
 
 }
+
