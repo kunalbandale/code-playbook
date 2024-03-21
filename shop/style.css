@@ -27,9 +27,80 @@ html , body {
 
 #nav h4 {
     font-size: 20px;
+    font-weight: 600;
+    
 }
 
 #nav i {
+    /* background-color: black; */
+    color:black;
+    /* padding: 30px; */
+    /* border-radius: 90%; */
     font-size: 20px;
-    color: white;
+    font-weight: 500;
+
+}
+
+#center {
+    height: 40%;
+    width: 100%;
+    padding: 40px 80px;
+}
+
+#center h1 {
+    font-size: 80px;
+    font-weight: 500;
+    line-height: 90px;
+}
+
+#center-in {
+    height: 200px;
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#center-in p {
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 32px;
+}
+
+#right{
+    width: 20%;
+}
+
+.elem {
+
+    padding:20px 0;
+    border-top: 2px solid black;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.elem i {
+    font-size: 25px;
+    font-weight: 500;
+    opacity: 0;
+}
+.elem a {
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+
+}
+
+.elem:hover i{
+    opacity: 1;
+}
+
+#bottom {
+    height: 36%;
+    width: 100%;
+    /* background-image: url(https://images.unsplash.com/photo-1604514628550-37477afdf4e3?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bW9kZWxzfGVufDB8fDB8fHww); */
+    background-image: url(img.jpg);
+    background-position: 0 46%;
+    background-size: cover;
 }
