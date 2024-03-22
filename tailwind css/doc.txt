@@ -1,0 +1,3 @@
+-  Tailwind CSS classes need to be applied.
+- A mobile-first approach is used here.
+- Breakpoints need to be targeted for responsiveness.
